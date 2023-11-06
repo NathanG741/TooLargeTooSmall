@@ -15,7 +15,7 @@ public class Main {
         Random rand = new Random();
 
         int randomNumber = rand.nextInt(25) + 1;
-        System.out.println("Random number is " + randomNumber);
+        //System.out.println("Random number is " + randomNumber);
         int tryCount = 0;
         while (true) {
             System.out.println("Pick a number between 1-25 ");
